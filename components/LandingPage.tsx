@@ -33,7 +33,7 @@ const LandingPage = () => {
           }}
           className="w-full"
         >
-          <p className="text-2xl text-gray-800 font-semibold">Let's grow</p>
+          <p className="text-2xl text-gray-800 font-semibold">Let&#39;s grow</p>
           <p className="text-3xl text-sky-600 font-semibold">Together</p>
         </motion.div>
       </div>
