@@ -65,7 +65,9 @@ const ChatBox = ({
       //     ? "fixed w-2/3 lg:w-1/2 h-auto top-14 bottom-5 px-2 lg:px-0 "
       //     : "hidden"
       // }
-      className={open ? "w-full lg:w-2/3 h-full pb-5 px-2 lg:px-0" : "hidden"}
+      className={
+        open ? "w-full lg:w-2/3 h-full pb-20 md:pb-5 px-2 lg:px-0" : "hidden"
+      }
     >
       <div className="h-full bg-gray-100 rounded-xl border-2 overflow-hidden border-gray-400/45">
         {/* <Button
@@ -76,7 +78,7 @@ const ChatBox = ({
         </Button> */}
 
         <div
-          className="mt-3 h-full overflow-y-auto px-3 no-scrollbar pb-20"
+          className="mt-3 h-full overflow-y-auto px-3 no-scrollbar pb-20 md:pb-20"
           ref={scrollRef}
         >
           {messages.map((message) => (

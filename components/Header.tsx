@@ -43,7 +43,7 @@ const Header = () => {
       <div className="relative w-full h-full max-h-screen flex items-center justify-center">
         <form
           onSubmit={handleSubmit}
-          className="w-full lg:w-2/3 absolute bottom-7 flex flex-row items-center justify-center px-2"
+          className="w-full lg:w-2/3 absolute bottom-[5.5rem] md:bottom-7 flex flex-row items-center justify-center px-2"
         >
           <Input
             className="rounded-xl w-full bg-gray-100
