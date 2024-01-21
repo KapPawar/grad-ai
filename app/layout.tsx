@@ -8,7 +8,7 @@ import { dark } from "@clerk/themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Grad.AI",
+  title: "gradAI.",
   description: "Grad.AI is a platform for AI-powered career coaching.",
 };
 
@@ -18,11 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider
-      appearance={{
-        baseTheme: dark,
-      }}
-    >
+    <ClerkProvider>
       <html lang="en">
         <body className={`${inter.className}`}>{children}</body>
       </html>
